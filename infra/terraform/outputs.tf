@@ -35,14 +35,14 @@ output "aws_iam_role_hello_kitty_anmol_mishra_role_name" {
 }
 
 
-output "aws_cloudwatch_log_group_aws_lambda_hello_kitty_function_name" {
-  value = module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.name
+output "aws_cloudwatch_log_group_aws_lambda_hello_kitty_function_anmol_mishra_arn" {
+  value = module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.arn
   sensitive = false
 }
 
 
-output "aws_cloudwatch_log_group_aws_lambda_hello_kitty_function_arn" {
-  value = module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.arn
+output "aws_cloudwatch_log_group_aws_lambda_hello_kitty_function_anmol_mishra_name" {
+  value = module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.name
   sensitive = false
 }
 
